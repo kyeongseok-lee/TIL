@@ -3,14 +3,16 @@
 - **Hyper Text Markup Language**
 - 문서의 구조를 잡기 위한 것
 
-- ![html](../HTML/html.JPG)
+  ![html](../HTML/html.JPG)
+
 
 
 
 ### Hyper Text
 
 - 각 문서 내부마다 다른 문서로 연결되는 링크들을 가지고 있는 형태
-- ![hypertext](../HTML/hypertext.JPG)
+
+  ![hypertext](../HTML/hypertext.JPG)
 
 
 
@@ -21,7 +23,8 @@
 ### Markup
 
 - 문서의 구조를 잡는 작업
-- ![markup](../HTML/markup.JPG)
+
+  ![markup](../HTML/markup.JPG)
 
 
 
@@ -33,13 +36,13 @@
 
 ### DOM (Document Object Model) 트리
 
-- ![DOMtree](../HTML/DOMtree.JPG)
+![DOMtree](../HTML/DOMtree.JPG)
 
 
 
 ### 요소 (element)
 
-- ![element](../HTML/element.JPG)
+![element](../HTML/element.JPG)
 
 
 
@@ -52,8 +55,10 @@
   - 메타 데이터를 표현하는 새로운 규약, **Open Graph Protocol**:star:
     - HTML 문서의 메타 데이터를 통해 문서의 정보를 전달
     - 페이스북에서 만들었으며, 메타정보에 해당하는 제목,설명 등을 쓸 수 있도록 정의
-    - ![OpenGraphProtocol](../HTML/OpenGraphProtocol.JPG)
+    
+      ![OpenGraphProtocol](../HTML/OpenGraphProtocol.JPG)
 - 외부 파일 연결
+  
   - CSS 파일 혹은 자바스크립트 파일
 
 

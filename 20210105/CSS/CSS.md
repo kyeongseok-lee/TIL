@@ -10,7 +10,7 @@
 
 - 셀렉터:star:
 
-![Selector](C:\Users\kkarl\Desktop\TIL\CSS\Selector.JPG)
+![Selector](Selector.JPG)
 
 
 
@@ -118,13 +118,13 @@
 
 ### Box model 구성
 
-![boxmodel](C:\Users\kkarl\Desktop\TIL\CSS\boxmodel.JPG)
+![boxmodel](boxmodel.JPG)
 
 
 
 - margin/padding
 
-![shorthand](C:\Users\kkarl\Desktop\TIL\CSS\shorthand.JPG)
+![shorthand](shorthand.JPG)
 
 
 
