@@ -49,7 +49,7 @@ arr = 'ABC'
 N = len(arr)
 bit = [0] * N
 
-for i in range(2):
+for i in range(2):	# for 문을 N번 중첩
     bit[0] = i
     for i in range(2):
         bit[1] = i
@@ -61,19 +61,130 @@ for i in range(2):
 
             
 # 2 
-def subset(k, n):
-    if k == n:
+def subset(k, n):	# K: 노드의 높이, n: 단말 노드의 높이
+    if k == n:		# 종료 조건
         print(bit)
         for i in range(N):
             if bit[i]:
                 print(arr[i], end='')
         print()
     else:
-        bit[k] = 0
+        bit[k] = 1	# k번 요소를 포함하는 선택
         subset(k + 1, n)
-        bit[k] = 1
+        bit[k] = 0	# k번 요소를 포함하지 않는 선택
         subset(k + 1, n)
 
 subset(0, 3)
+```
+
+
+
+
+
+### 순열
+
+```python
+arr = 'ABC'
+N = len(arr)
+
+# 1
+for i in range(N):              # 첫번째 요소 선택
+    for j in range(N):          # 두번째 요소 선택
+        if i != j:
+            for k in range(N):  # 세번째 요소 선택
+                if k != i and k != j:
+                    print(arr[i], arr[j], arr[k])
+          
+        
+        
+# 2
+order = []
+for i in range(N):
+    order.append(arr[i])                # 첫번째 요소 선택
+    for j in range(N):          		# 두번째 요소 선택
+        if arr[j] in order: continue
+        order.append(arr[j])
+        for k in range(N):  			# 세번째 요소 선택
+            if arr[k] in order: continue
+            order.append(arr[k])    
+            print(order)
+            order.pop()
+        order.pop()
+    order.pop()
+    
+    
+    
+# 3
+visit = [0] * N
+def perm(k, n):
+    if k == n:
+        print(order)
+    else:
+        for i in range(N):
+            if visit[i]: continue
+            visit[i] = 1
+            order.append(arr[i])
+            perm(k+1, n)
+            visit[i] = 0
+            order.pop()
+
+perm(0, N)
+
+
+# 4
+def perm(k, n, visit):
+    if k == n:
+        print(order)
+    else:
+        for i in range(N):
+            if visit & (1 << i): continue
+            order.append(arr[i])
+            perm(k+1, n, visit | (1 << i))
+            order.pop()
+
+perm(0, N, 0)
+```
+
+
+
+
+
+### N-Queen
+
+```python
+def possible(k, c): # k번 퀸의 위치는 (k, c)
+    for i in range(k):
+        if k-i == abs(c - col[i]):
+            return True
+    return False
+
+
+def nQueen(k):
+    global cnt
+    if k == N:
+        # 카운팅
+        cnt += 1
+        return
+    else:
+        for i in range(N):
+            if v[i]: continue
+            # 서로 대각에 위치하는지 판단
+            # k번째 퀸의 열값을 i로 결정
+            # 그 이전에 결정한 상태는 0 ~ k-1 번까지
+            if possible(k, i): continue
+            v[i] = 1
+            col[k] = i
+            nQueen(k + 1)
+            v[i] = 0
+
+
+for t in range(1, int(input()) + 1):
+    N = int(input())
+    
+    col = [0] * N
+    v = [0] * N
+    cnt = 0
+    nQueen(0)
+    print(cnt)
 ```
 
