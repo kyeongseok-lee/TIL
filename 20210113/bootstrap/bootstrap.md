@@ -12,9 +12,42 @@
 
 # Bootstrap
 
+> Bootstrap은 HTML, CSS, JS로 구성된 오픈소스 라이브러리
+>
+> 반응형, 모바일 대응을 위한 프론트엔트 컴포넌트
+
+
+
+### Utilities
+
+> 대표적인 유틸리티
+
+- position
+- display
+- spacing - margin, padding
+- border
+- color
+- flex
+
+
+
 
 
 ### component
+
+- alerts
+- badge
+- breadcrumb
+- button
+- card
+- carousel
+  - JS
+- Form / input
+- modal
+  - JS
+- Navbar
+  - JS
+- pagination
 
 ```html
 <!DOCTYPE html>
@@ -82,6 +115,23 @@
 
 
 ### grid
+
+> grid system은 균형감 있는 레이아웃을 구성하기 위한 방법이며, bootstrap에서는 반응형으로 레이아웃을 자유롭게 구성할 수 있다.
+
+- `.container`
+
+  - 항상 bootstarp의 gird system을 사용하려면, 상위에 `.container`가 존재해야 한다.
+
+  - `.container`
+  - `.container-fluid`
+
+- `.row`
+
+  - 12개의 컬럼으로 구성
+
+  - `.col-{breakpoint}-{number}`
+  - breakpoint
+    - `.col`, `.col-sm`, `col-md`, `col-lg`, `col-xl`
 
 ```html
 <!DOCTYPE html>
