@@ -32,7 +32,7 @@
 
 ## JavaScript
 
-- [JavaScript](./JavaScript/JavaScripts.md)
+- [JavaScript](./JavaScript/JavaScript.md)
 - [DOM_Event](./JavaScript/DOM_Event.md)
 - [function](./JavaScript/function.md)
 
