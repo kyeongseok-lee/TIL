@@ -7,7 +7,7 @@
 
 ## Category :page_facing_up:
 
-- [`HTML / CSS`](#HTML / CSS)
+- [HTML / CSS](#HTML / CSS)
 - [JavaScript](#JavaScript)
 - [Python](#Python)
 - [Django](#Django)
