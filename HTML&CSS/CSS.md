@@ -10,7 +10,7 @@
 
 - 셀렉터:star:
 
-![Selector](Selector.JPG)
+![Selector](https://user-images.githubusercontent.com/60080675/104677051-093b7080-572c-11eb-942f-43aafb47b406.JPG)
 
 
 
@@ -118,13 +118,13 @@
 
 ### Box model 구성
 
-![boxmodel](boxmodel.JPG)
+![boxmodel](https://user-images.githubusercontent.com/60080675/104677063-122c4200-572c-11eb-9a55-68f654620d30.JPG)
 
 
 
 - margin/padding
 
-![shorthand](shorthand.JPG)
+![shorthand](https://user-images.githubusercontent.com/60080675/104677078-18222300-572c-11eb-80f6-ba310c82cc55.JPG)
 
 
 

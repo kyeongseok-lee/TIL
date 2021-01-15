@@ -1,9 +1,10 @@
 # HTML이란
 
 - **Hyper Text Markup Language**
+
 - 문서의 구조를 잡기 위한 것
 
-  ![html](../HTML/html.JPG)
+  ![html](https://user-images.githubusercontent.com/60080675/104676769-6682f200-572b-11eb-8a8d-c92e7aea138f.JPG)
 
 
 
@@ -12,7 +13,8 @@
 
 - 각 문서 내부마다 다른 문서로 연결되는 링크들을 가지고 있는 형태
 
-  ![hypertext](../HTML/hypertext.JPG)
+  ![hypertext](https://user-images.githubusercontent.com/60080675/104676809-7bf81c00-572b-11eb-9bd9-cb0e0e02a98e.JPG)
+
 
 
 
@@ -24,7 +26,7 @@
 
 - 문서의 구조를 잡는 작업
 
-  ![markup](../HTML/markup.JPG)
+  ![markup](https://user-images.githubusercontent.com/60080675/104676840-89ada180-572b-11eb-9b18-548ba90e59f3.JPG)
 
 
 
@@ -36,13 +38,13 @@
 
 ### DOM (Document Object Model) 트리
 
-![DOMtree](../HTML/DOMtree.JPG)
+![DOMtree](https://user-images.githubusercontent.com/60080675/104676893-a2b65280-572b-11eb-9f7e-4fb2df9997fe.JPG)
 
 
 
 ### 요소 (element)
 
-![element](../HTML/element.JPG)
+![element](https://user-images.githubusercontent.com/60080675/104676902-a9dd6080-572b-11eb-86c5-bcc9198ca4a0.JPG)
 
 
 
@@ -54,9 +56,8 @@
 - **메타데이터**를 통해 웹 문서에 대한 추가 정보를 선언
   - 메타 데이터를 표현하는 새로운 규약, **Open Graph Protocol**:star:
     - HTML 문서의 메타 데이터를 통해 문서의 정보를 전달
-    - 페이스북에서 만들었으며, 메타정보에 해당하는 제목,설명 등을 쓸 수 있도록 정의
-    
-      ![OpenGraphProtocol](../HTML/OpenGraphProtocol.JPG)
+    - 페이스북에서 만들었으며, 메타정보에 해당하는 제목,설명 등을 쓸 수 있도록 정의    
+      ![OpenGraphProtocol](https://user-images.githubusercontent.com/60080675/104676912-b2ce3200-572b-11eb-9365-287e3b22af80.JPG)
 - 외부 파일 연결
   
   - CSS 파일 혹은 자바스크립트 파일
@@ -138,4 +139,4 @@
 
  ## 웹 사이트 분석 - web developer
 
-![webdeveloper](../HTML/webdeveloper.JPG)
+![webdeveloper](https://user-images.githubusercontent.com/60080675/104676951-cc6f7980-572b-11eb-8bb5-93505308f550.JPG)
