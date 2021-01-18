@@ -49,6 +49,7 @@
 ## Django
 
 - [Django_basic](./Django/Django_basic.md)
+- [Django template](./Django/Django_template.md)
 
 
 
