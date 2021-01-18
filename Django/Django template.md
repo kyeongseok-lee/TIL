@@ -41,7 +41,7 @@
 {% endfor %}
 ```
 
-- `{{ forloop.counter }}` 번호 매기기
+- `{{ forloop.counter }}` 1부터 매기기
 - `{{ forloop.counter0 }}` 0부터 카운팅
 - `{% empty %}` 비었다면..
 
