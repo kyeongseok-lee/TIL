@@ -50,10 +50,7 @@
 
 - [Django_basic](./Django/Django_basic.md)
 - [Django template](./Django/Django_template.md)
-
-
-
-
+- [Django model](./Django/Django_model.md)
 
 ## Algorithm
 
