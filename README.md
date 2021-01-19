@@ -49,8 +49,15 @@
 ## Django
 
 - [Django_basic](./Django/Django_basic.md)
-- [Django template](./Django/Django_template.md)
-- [Django model](./Django/Django_model.md)
+- [Django_template](./Django/Django_template.md)
+- [Django_model](./Django/Django_model.md)
+- [Django_error](./Django/Django_error.md)
+
+
+
+
+
+
 
 ## Algorithm
 
