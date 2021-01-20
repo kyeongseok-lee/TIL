@@ -52,6 +52,7 @@
 - [Django_template](./Django/Django_template.md)
 - [Django_model](./Django/Django_model.md)
 - [Django_error](./Django/Django_error.md)
+- [Django_CRUD_plus](./Django/Django_CRUD_plus.md)
 
 
 
@@ -72,6 +73,7 @@
 - [pm_문자열찾기](./Algorithm/pm_문자열찾기.py)
 - [stack](./Algorithm/stack.md)
 - [stack2](./Algorithm/stack2.md)
+- [Queue](./Algorithm/Queue.md)
 
 
 
