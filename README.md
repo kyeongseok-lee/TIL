@@ -58,8 +58,6 @@
 
 
 
-
-
 ## Algorithm
 
 ### Theory
@@ -74,6 +72,12 @@
 - [stack](./Algorithm/stack.md)
 - [stack2](./Algorithm/stack2.md)
 - [Queue](./Algorithm/Queue.md)
+
+
+
+### Problem
+
+- [SWEA](./Algorithm/SWEA)
 
 
 
