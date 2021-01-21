@@ -54,6 +54,8 @@
 - [Django_error](./Django/Django_error.md)
 - [Django_CRUD_plus](./Django/Django_CRUD_plus.md)
 
+- [Django_form](./Django/Django_form.md)
+
 
 
 
@@ -87,3 +89,4 @@
 ## Git
 
 - [Git_basic](./Git/Git_basic.md)
+- [Git_branch](./Git/Git_branch.md)
