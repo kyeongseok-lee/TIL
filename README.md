@@ -58,6 +58,12 @@
 
 
 
+## DB
+
+- [DB 기본 용어](./DB/DB 기본 용어.md)
+- [SQL 기초](./DB/SQL 기초.md)
+- [SQL, ORM 연습](./DB/SQL, ORM 연습.md)
+
 
 
 ## Algorithm
