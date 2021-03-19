@@ -43,6 +43,9 @@
 ## Python
 
 - [가상환경](./Python/가상환경.md)
+- [random](./Python/random.md)
+
+- [혼공파01~02](./Python/혼공파01~02.md)
 
 
 
@@ -60,10 +63,10 @@
 
 ## DB
 
-- [DB기본용어](./DB/DB 기본 용어.md)
-- [SQL기초](./DB/SQL 기초.md)
-- [SQL,ORM 연습](./DB/SQL, ORM 연습.md)
-- [1:N](./DB/1:N.md)
+- [DB기본용어](./DB/DB기본용어.md)
+- [SQL기초](./DB/SQL기초.md)
+- [SQL,ORM 연습](./DB/SQL,ORM연습.md)
+- [1:N](./DB/1N.md)
 
 
 
